@@ -1,0 +1,339 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; 
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header .logo h1 {
+    margin: 0;
+}
+
+.header nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+header.header {
+    margin-bottom: 20px;
+    background-color: white; 
+    position: relative;
+    color: black;
+}
+
+.header .container {
+    position: relative;
+    z-index: 2; 
+}
+
+.avatar-container {
+    position: absolute;
+    bottom: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    text-align: center; 
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+}
+
+.container {
+    margin-top: 60px; 
+    max-width: 100%; 
+    padding: 20px;
+}
+
+#home, #about, #profile {
+    padding: 20px 0;
+}
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #a1a1a1;
+    color: white;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 20px;
+    overflow-x: auto; 
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: white;
+}
+
+.table thead th {
+    border-bottom: 2px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+
+.table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.table tbody td {
+    border-top: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #251a88;
+    border-color: #251a88;
+}
+
+.btn-primary {
+    background-color: #a1a1a1;
+    border-color: #a1a1a1;
+}
+
+.btn-danger {
+    background-color: #1a7b88;
+    border-color: #1a7b88;
+}
+
+a.btn:hover {
+    opacity: 0.9;
+}
+
+.home-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.home-section img {
+    width: 70%; 
+    height: auto;
+    max-width: 1200px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; 
+    display: block; 
+}
+
+#profile {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+#profile .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#profile .card-header {
+    background-color: #251a88;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#profile .card-body {
+    padding: 20px;
+    overflow-x: auto;
+}
+
+#profile .btn-success {
+    background-color: #251a88;
+    border-color: #251a88;
+    border-radius: 5px;
+}
+
+#profile .btn-success:hover {
+    background-color: #1a1566;
+    border-color: #1a1566;
+}
+
+#profile .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#profile .table thead th {
+    background-color: #251a88;
+    color: white;
+    border-color: #251a88;
+    font-weight: bold;
+}
+
+#profile .table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+#profile .table tbody td {
+    border-top: 1px solid #ddd;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+    #profile .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}
+
+#pengaduan {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+#pengaduan .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pengaduan .card-header {
+    background-color: #1a7b88;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#pengaduan .card-body {
+    padding: 20px;
+    overflow-x: auto;
+}
+
+#pengaduan .btn-success {
+    background-color: #1a7b88;
+    border-color: #1a7b88;
+    border-radius: 5px;
+}
+
+#pengaduan .btn-success:hover {
+    background-color: #0e5a5f;
+    border-color: #0e5a5f;
+}
+
+#pengaduan .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#pengaduan .table thead th {
+    background-color: #1a7b88;
+    color: white;
+    border-color: #1a7b88;
+    font-weight: bold;
+}
+
+#pengaduan .table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+#pengaduan .table tbody td {
+    border-top: 1px solid #ddd;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+    #pengaduan .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}
+
+#about {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+#about .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about .card-header {
+    background-color: #a1a1a1;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#about .card-body {
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+#about p {
+    margin-bottom: 15px;
+}
+
+/* styles.css */
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (change to 75% for 4:3 Aspect Ratio) */
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
